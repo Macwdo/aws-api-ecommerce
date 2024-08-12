@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "aws-web-py"
+version = "0.1.0"
+description = ""
+authors = ["macwdo"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+ruff = "^0.5.7"
+mypy = "^1.11.1"
+pytest = "^8.3.2"
+coverage = "^7.6.1"
+taskipy = "^1.13.0"
+fastapi = "^0.112.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
